@@ -46,4 +46,4 @@ RgCommplatform.rgInit(this, appInfo, new OnInitCompleteListener() {
 		});
 
 ```
-[1]:www.baidu.com/ "服务端对接说明文档"
+[1]:server.md "服务端对接说明文档"
