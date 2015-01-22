@@ -2,11 +2,11 @@
 ---
 ##1.关于APPID和APPKEY
 Q：初始化需要的AppId ，AppKey ，论坛ID如何获取？<br>
-A：联系摩奇运营人员分配。
+A：联系鱼丸互动运营人员分配。
 ##2.配置问题
 Q：已经配置
 ```
-<meta-data  android:name="GAME_CHANNEL" android:value="IREADYGO_CHANNEL" />
+<meta-data  android:name="GAME_CHANNEL" android:value="YUWAN_CHANNEL" />
 ```
 但后台没有渠道统计数据？<br>
 A:检查配置文件，**meta-data**节点应配置在**application**节点内。
@@ -17,7 +17,7 @@ A：把银联架包**UPPayPluginEx.jar**里面的资源文件拿出来放到资源文件夹下再按正常打
 Q：如何获得支付结果通知？<br>
 A：使用异步购买，支付结果将以消息的方式通知到您的业务服务器或者服务端虚拟商店中。 应用接入方需要在**RgBuyInfo**中回传通知地址(或把回传地址交由服务器配置)。
 您的业务服务器需要处理用户的支付结果通知。
-接收由摩奇移动开发平台服务器发送给各个应用服务的支付购买结果。
+接收由鱼丸互动移动开发平台服务器发送给各个应用服务的支付购买结果。
 服务端对接方式和相应的数据格式具体参见[服务端对接说明文档][1]。
 
 ##5.注销账号时点重启游戏没有反应

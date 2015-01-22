@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-7d581375e5c0843235d3707fc73ac3878bc398c3.jar" />
+    </item>
+    <item
+        jar="F:\wumiao\sdkdemo\app\libs\YuWanPaySdk-3.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="b5f3ef7dbe74d0e01e8ea35a393b428e74e8cc6f">
+        <dex dex="F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\YuWanPaySdk-3.0.0-77a66bd3a3f61ec2fe8c6bde212bf45f528babf4.jar" />
+    </item>
+    <item
+        jar="F:\wumiao\sdkdemo\app\libs\UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9a1a67e3088b77feb0f5ea50f1f17c5cbaeb6fa8">
+        <dex dex="F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\UPPayAssistEx-9a14910f3c558f49993a12a1c1b60a7938d0ad32.jar" />
+    </item>
+    <item
+        jar="F:\wumiao\sdkdemo\app\libs\UPPayPluginEx.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="436d0e59925f58d1220aa70f5b5e4d0ac722bb5a">
+        <dex dex="F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\UPPayPluginEx-aef53b1a94e3d6192c5a73e2aafcb61bd42b2fca.jar" />
+    </item>
+
+</items>

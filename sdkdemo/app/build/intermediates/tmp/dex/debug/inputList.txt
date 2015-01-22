@@ -1,0 +1,5 @@
+F:\wumiao\sdkdemo\app\build\intermediates\classes\debug
+F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\UPPayAssistEx-9a14910f3c558f49993a12a1c1b60a7938d0ad32.jar
+F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\YuWanPaySdk-3.0.0-77a66bd3a3f61ec2fe8c6bde212bf45f528babf4.jar
+F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-7d581375e5c0843235d3707fc73ac3878bc398c3.jar
+F:\wumiao\sdkdemo\app\build\intermediates\pre-dexed\debug\UPPayPluginEx-aef53b1a94e3d6192c5a73e2aafcb61bd42b2fca.jar

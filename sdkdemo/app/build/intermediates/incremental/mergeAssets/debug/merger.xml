@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\wumiao\sdkdemo\app\src\main\assets"><file name="UPPayPluginEx.apk" path="F:\wumiao\sdkdemo\app\src\main\assets\UPPayPluginEx.apk"/></source></dataSet><dataSet config="debug"><source path="F:\wumiao\sdkdemo\app\src\debug\assets"/></dataSet></merger>

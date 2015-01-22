@@ -1,6 +1,6 @@
-﻿#一.摩奇SDK构成
+﻿#一.鱼丸互动SDK构成
 ------
-摩奇SDK由SDK架包，依赖包，SDK所需的资源文件和示例工程组成。
+鱼丸互动SDK由SDK架包，依赖包，SDK所需的资源文件和示例工程组成。
 #二.SDK接入流程简要描述
 1.获取(商户Id)AppId 和(支付密钥) Appkey以及(论坛ID)FormId。 
 
@@ -14,7 +14,7 @@
 
 6.编译应用，并首先完成自测。  
 
-7.将应用提交给瑞高运营团队进行审核。  
+7.将应用提交给鱼丸互动运营团队进行审核。  
 
 8.审核通过后，与商务人员确定应用推广的渠道相关事宜。  
 #三.SDK环境搭建
@@ -36,7 +36,7 @@
 ```
 **设置渠道号：**
 ```xml
-<meta-data android:name="GAME_CHANNEL" android:value="IREADYGO_CHANNEL" />
+<meta-data android:name="GAME_CHANNEL" android:value="YUWAN_CHANNEL" />
 ```
 **添加Android组件声明(注意横竖屏区别)：**  
 
@@ -165,11 +165,11 @@
 ```java
 void RgCommplatform.rgInit(Context context, RgAppInfo appInfo, OnInitCompleteListener 	onInitCompleteListener);
 ```
->* 用于初始化摩奇SDK，在应用的主Activity中必须调用一次该方法。  
+>* 用于初始化鱼丸互动SDK，在应用的主Activity中必须调用一次该方法。  
 
 >* Context：上下文对象，可以传入当前Activity。  
 
->* appInfo：AppId和 AppKey、论坛ID等相关参数设置。(由摩奇提供)  
+>* appInfo：AppId和 AppKey、论坛ID等相关参数设置。(由鱼丸互动提供)  
 
 >* onInitCompleteListener：初始化完成后的通知回调。  
 
@@ -177,7 +177,7 @@ void RgCommplatform.rgInit(Context context, RgAppInfo appInfo, OnInitCompleteLis
 
 **使用示例：**
 ```java
-//参数分别为AppId  AppKey  论坛ID，由摩奇分配
+//参数分别为AppId  AppKey  论坛ID，由鱼丸互动分配
 RgAppInfo appInfo = new RgAppInfo("10000002", "aeb92e964c1cf89a9ddc717b9a2b9fcc", "116");
 RgCommplatform.rgInit(this, appInfo, new OnInitCompleteListener() {
 	@Override
@@ -338,7 +338,7 @@ case RgConstant.PAY_CANCEL:// 支付取消
 >* buyInfo.setNote购买时客户端应用通过API传入，通过NoticeUrl原样返回给游戏服务器，开发者可利用该字段定义自己的扩展数据。例如区分游戏服务器，实现指定服务器充值。
 
 ###b.支付结果通知
-使用异步购买，支付结果将以消息的方式通知到您的业务服务器或者服务端虚拟商店中。应用接入方需要在RgBuyInfo中回传通知地址。您的业务服务器需要处理用户的支付结果通知。接收由摩奇移动开发平台服务器发送给各个应用服务的支付购买结果。服务端对接方式和相应的数据格式具体参见[服务端对接说明文档](server.md)。
+使用异步购买，支付结果将以消息的方式通知到您的业务服务器或者服务端虚拟商店中。应用接入方需要在RgBuyInfo中回传通知地址。您的业务服务器需要处理用户的支付结果通知。接收由鱼丸互动移动开发平台服务器发送给各个应用服务的支付购买结果。服务端对接方式和相应的数据格式具体参见[服务端对接说明文档](server.md)。
 
 ##7.判断是否已登陆
 ```java
@@ -356,9 +356,9 @@ String RgCommplatform.getSession(Context context);
 ```
 **注意：rginit、rgLogin、rgPayAsyn、rgDestory、showFloatWindow这几个方法请务必在主线程调用。**
 #五.混淆
-摩奇SDK 包是以 jar包及资源文件提供给用户的，其中jar包已经半混淆状态，您在混淆自 己 APK 包的时候请不要将摩奇SDK的jar包一起混淆，因为里面有些自定义 UI 控件，若被混淆后会因为无法找到相关类而抛异常。
+鱼丸互动SDK 包是以 jar包及资源文件提供给用户的，其中jar包已经半混淆状态，您在混淆自 己 APK 包的时候请不要将鱼丸互动SDK的jar包一起混淆，因为里面有些自定义 UI 控件，若被混淆后会因为无法找到相关类而抛异常。
 您可以在用 ant 构建混淆包的 build.xml 里面对应位置或者在 proguard.cfg 里加入：
 ```java
 -keep public class com.ireadygo.sdk.**
 ```
-以避免 摩奇SDK 的 jar 包被混淆。
+以避免 鱼丸互动SDK 的 jar 包被混淆。
