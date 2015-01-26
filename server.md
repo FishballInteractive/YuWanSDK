@@ -54,7 +54,7 @@ http:// NoticeUrl? MerId=xx&OrderId=xx&Money=xx&TranCode=xx
 |Uin|	用户的鱼丸互动帐号|
 |SessionKey	|用户的登录SessionKey|
 |EncString	|通知加密字符串其中EncString是 商户ID,请求编号,鱼丸互动帐号,SessionKey,商户密钥五个字符串连接之后用MD5加密生成的字符串.EncString= MD5(MerId.Act.Uin.SessionKey.MerchantKey);|
-请求地址为：http://mqyx.much3g.com/index.php/user_center
+请求地址为：http://sdk.yuwan8.com/index.php/user_center
 
 游戏服务器发出请求后，鱼丸互动服务器会验证EncString是否有效,验证SessionKey是否有效,然后返回结果给游戏服务器。
 鱼丸互动服务器返回的参数如下：
