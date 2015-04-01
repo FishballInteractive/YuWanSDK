@@ -42,7 +42,7 @@
 
 **横屏：**
 ```xml
-<!-- rgSDK横屏组件声明start-->
+<!-- YuWanPaySDK横屏组件声明start-->
 <activity
 	android:name="com.ireadygo.sdk.ui.RgAccountActivity"
 	android:configChanges="keyboardHidden|orientation|screenSize"
@@ -98,11 +98,11 @@
 	android:screenOrientation="landscape"
 	android:theme="@style/AppTheme">
 </activity>
-<!-- rgSDK横屏组件声明end-->
+<!-- YuWanPaySDK横屏组件声明end-->
 ```
 **竖屏：**
 ```xml
-<!-- rgSDK竖屏组件声明start-->
+<!-- YuWanPaySDK竖屏组件声明start-->
 <activity
 	android:name="com.ireadygo.sdk.ui.RgAccountActivity"
 	android:configChanges="keyboardHidden|orientation|screenSize"
@@ -158,7 +158,7 @@
 	android:screenOrientation="portrait"
 	android:theme="@style/AppTheme">
 </activity>
-<!-- rgSDK竖屏组件声明end-->
+<!-- YuWanPaySDK竖屏组件声明end-->
 ```
 #四.接入API
 ##1.初始化SDK
