@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YuWanPaySdk_3.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/YuWanPaySdk_3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -104,7 +104,7 @@
 
         <meta-data
             android:name="GAME_CHANNEL"
-            android:value="RUIGAO2" />
+            android:value="ceshi1" />
         <!-- SDK配置end -->
     </application>
 

@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#30222222"
     android:paddingTop="20dp" >
 
     <Button
@@ -10,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="商品：昆仑天晶\n价格：100元\n\n  点击支付" />
+        android:text="商品：昆仑天晶\n价格：1元\n\n  点击支付" />
     
 
     <Button

@@ -310,7 +310,7 @@ RgCommplatform.rgPayAsyn(buyInfo, new OnPayProcessListener() {
 
 @Override
 public void finishPayProcess(int payCode) {
-Log.d("liu.js", "返回支付结果--payCode=" + payCode);
+Log.d("paycode", "返回支付结果--payCode=" + payCode);
 switch (payCode) {
 case RgConstant.PAY_SUCCESS:// 支付成功
 		Toast.makeText(GameMainActivity.this, "支付成功", Toast.LENGTH_SHORT).show();
@@ -354,6 +354,22 @@ String RgCommplatform.getSessionId(Context context);
 String RgCommplatform.getSessionKey(Context context);
 String RgCommplatform.getSession(Context context);
 ```
+
+##10.上报角色、区服信息
+在玩家注册完成后调用
+```java
+ void RgCommplatform.reportRoleInfo(RgRoleInfo roleInfo)
+```
+>* roleInfo：角色、区服信息  
+
+**使用示例：**
+```java
+String roleName ="一只小菜鸟";
+String serverName ="金戈铁马（12服）";
+RgRoleInfo roleInfo = new RgRoleInfo(roleName,serverName);
+```
+
+
 **注意：rginit、rgLogin、rgPayAsyn、rgDestory、showFloatWindow这几个方法请务必在主线程调用。**
 #五.混淆
 鱼丸互动SDK 包是以 jar包及资源文件提供给用户的，其中jar包已经半混淆状态，您在混淆自 己 APK 包的时候请不要将鱼丸互动SDK的jar包一起混淆，因为里面有些自定义 UI 控件，若被混淆后会因为无法找到相关类而抛异常。

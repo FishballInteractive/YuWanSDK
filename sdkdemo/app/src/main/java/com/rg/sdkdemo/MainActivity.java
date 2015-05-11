@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -23,17 +24,22 @@ import com.ireadygo.sdk.RgCommplatform.OnLoginProcessListener;
 import com.ireadygo.sdk.RgCommplatform.OnLogoutListener;
 import com.ireadygo.sdk.RgCommplatform.OnPayProcessListener;
 import com.ireadygo.sdk.RgConstant;
+import com.ireadygo.sdk.RgRoleInfo;
 
 public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams. FLAG_FULLSCREEN ,
+                WindowManager.LayoutParams. FLAG_FULLSCREEN);
         setContentView(R.layout.main);
 
 //参数分别为AppId  AppKey  论坛ID，由鱼丸互动分配
-        RgAppInfo appInfo = new RgAppInfo("10000002",
-                "aeb92e964c1cf89a9ddc717b9a2b9fcc", "116");
+        RgAppInfo appInfo = new RgAppInfo("300008345533",
+                "3403e3ce2ad73bd2646a12bd35779cee", "116");
+//        RgAppInfo appInfo = new RgAppInfo("10000056",
+//                "3403e3ce2ad73bd2646a12bd35779cee", "116");
         RgCommplatform.rgInit(this, appInfo, new OnInitCompleteListener() {
 
             @Override
@@ -75,6 +81,8 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
+
+//                RgCommplatform.reportRoleInfo(new RgRoleInfo("鱼丸互动","金戈铁马（12服）"));
                 if (!RgCommplatform.isLogined(MainActivity.this)) {
                     Toast.makeText(MainActivity.this, "??????",
                             Toast.LENGTH_SHORT).show();
@@ -82,7 +90,7 @@ public class MainActivity extends Activity {
                 }
                 String uuid = UUID.randomUUID().toString(); // 订单id，必须唯一，必须设置
                 String itemName = "昆仑天晶";// 道具名称 必须设置
-                int gredit = 100;// 支付金额 必须设置，单位：元
+                int gredit = 1;// 支付金额 必须设置，单位：元
                 String note = "原样返回给游戏服务器";// 直接回传给游戏服务器的字符串，可不设置
                 RgBuyInfo buyInfo = new RgBuyInfo(uuid, itemName, gredit);
                 buyInfo.setNote(note);
