@@ -356,7 +356,7 @@ String RgCommplatform.getSession(Context context);
 ```
 
 ##10.上报角色、区服信息
-在玩家注册完成后调用
+在玩家创建角色完成后调用
 ```java
  void RgCommplatform.reportRoleInfo(RgRoleInfo roleInfo)
 ```
