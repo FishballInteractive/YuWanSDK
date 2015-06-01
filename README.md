@@ -82,22 +82,7 @@
 	android:screenOrientation="landscape"
 	android:theme="@android:style/Theme.Light.NoTitleBar">
 </activity>
-<activity
-	android:name="com.unionpay.uppay.PayActivityEx"
-	android:configChanges="orientation|keyboardHidden|screenSize"
-	android:excludeFromRecents="true"
-	android:label="@string/app_name"
-	android:screenOrientation="landscape"
-	android:windowSoftInputMode="adjustResize">
-</activity>
-<activity
-	android:name="com.unionpay.uppay.PayActivity"
-	android:configChanges="orientation|keyboardHidden|screenLayout|screenSize"
-	android:excludeFromRecents="true"
-	android:label="@string/app_name"
-	android:screenOrientation="landscape"
-	android:theme="@style/AppTheme">
-</activity>
+
 <!-- YuWanPaySDK横屏组件声明end-->
 ```
 **竖屏：**
@@ -142,22 +127,7 @@
 	android:screenOrientation="portrait"
 	android:theme="@android:style/Theme.Light.NoTitleBar">
 </activity>
-<activity
-	android:name="com.unionpay.uppay.PayActivityEx"
-	android:configChanges="orientation|keyboardHidden|screenSize"
-	android:excludeFromRecents="true"
-	android:label="@string/app_name"
-	android:screenOrientation="portrait"
-	android:windowSoftInputMode="adjustResize">
-</activity>
-<activity
-	android:name="com.unionpay.uppay.PayActivity"
-	android:configChanges="orientation|keyboardHidden|screenLayout|screenSize"
-	android:excludeFromRecents="true"
-	android:label="@string/app_name"
-	android:screenOrientation="portrait"
-	android:theme="@style/AppTheme">
-</activity>
+
 <!-- YuWanPaySDK竖屏组件声明end-->
 ```
 #四.接入API
