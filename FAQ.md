@@ -1,49 +1,42 @@
-#³£¼ûFAQÎÊÌâ£¨ÕûÀíÖÐ¡­¡­£©£º
+#å¸¸è§FAQé—®é¢˜ï¼ˆæ•´ç†ä¸­â€¦â€¦ï¼‰ï¼š
 ---
-##1.¹ØÓÚAPPIDºÍAPPKEY
-Q£º³õÊ¼»¯ÐèÒªµÄAppId £¬AppKey £¬ÂÛÌ³IDÈçºÎ»ñÈ¡£¿<br>
-A£ºÁªÏµÓãÍè»¥¶¯ÔËÓªÈËÔ±·ÖÅä¡£
-##2.ÅäÖÃÎÊÌâ
-Q£ºÒÑ¾­ÅäÖÃ
+##1.å…³äºŽAPPIDå’ŒAPPKEY
+Qï¼šåˆå§‹åŒ–éœ€è¦çš„AppId ï¼ŒAppKey ï¼Œè®ºå›IDå¦‚ä½•èŽ·å–ï¼Ÿ<br>
+Aï¼šè”ç³»é±¼ä¸¸äº’åŠ¨è¿è¥äººå‘˜åˆ†é…ã€‚
+##2.é…ç½®é—®é¢˜
+Qï¼šå·²ç»é…ç½®
 ```
 <meta-data  android:name="GAME_CHANNEL" android:value="YUWAN_CHANNEL" />
 ```
-µ«ºóÌ¨Ã»ÓÐÇþµÀÍ³¼ÆÊý¾Ý£¿<br>
-A:¼ì²éÅäÖÃÎÄ¼þ£¬**meta-data**½ÚµãÓ¦ÅäÖÃÔÚ**application**½ÚµãÄÚ¡£
-##3.ANEµÈÐèÒª²ð·Ö×ÊÔ´µÄ´ò°ü·½Ê½ÐèÒª×¢ÒâµÄÎÊÌâ
-Q£º´ò°üºó³ÌÐòµ÷ÓÃÒøÁªÖ§¸¶Ê±ÌáÊ¾ÕÒ²»µ½Ïà¹Ø×ÊÔ´ÎÄ¼þ£¿<br>
-A£º°ÑÒøÁª¼Ü°ü**UPPayPluginEx.jar**ÀïÃæµÄ×ÊÔ´ÎÄ¼þÄÃ³öÀ´·Åµ½×ÊÔ´ÎÄ¼þ¼ÐÏÂÔÙ°´Õý³£´ò°üÁ÷³Ì×ß¡£
-##4.ÈçºÎ»ñµÃÖ§¸¶½á¹ûÍ¨Öª
-Q£ºÈçºÎ»ñµÃÖ§¸¶½á¹ûÍ¨Öª£¿<br>
-A£ºÊ¹ÓÃÒì²½¹ºÂò£¬Ö§¸¶½á¹û½«ÒÔÏûÏ¢µÄ·½Ê½Í¨Öªµ½ÄúµÄÒµÎñ·þÎñÆ÷»òÕß·þÎñ¶ËÐéÄâÉÌµêÖÐ¡£ Ó¦ÓÃ½ÓÈë·½ÐèÒªÔÚ**RgBuyInfo**ÖÐ»Ø´«Í¨ÖªµØÖ·(»ò°Ñ»Ø´«µØÖ·½»ÓÉ·þÎñÆ÷ÅäÖÃ)¡£
-ÄúµÄÒµÎñ·þÎñÆ÷ÐèÒª´¦ÀíÓÃ»§µÄÖ§¸¶½á¹ûÍ¨Öª¡£
-½ÓÊÕÓÉÓãÍè»¥¶¯ÒÆ¶¯¿ª·¢Æ½Ì¨·þÎñÆ÷·¢ËÍ¸ø¸÷¸öÓ¦ÓÃ·þÎñµÄÖ§¸¶¹ºÂò½á¹û¡£
-·þÎñ¶Ë¶Ô½Ó·½Ê½ºÍÏàÓ¦µÄÊý¾Ý¸ñÊ½¾ßÌå²Î¼û[·þÎñ¶Ë¶Ô½ÓËµÃ÷ÎÄµµ][1]¡£
+ä½†åŽå°æ²¡æœ‰æ¸ é“ç»Ÿè®¡æ•°æ®ï¼Ÿ<br>
+A:æ£€æŸ¥é…ç½®æ–‡ä»¶ï¼Œ**meta-data**èŠ‚ç‚¹åº”é…ç½®åœ¨**application**èŠ‚ç‚¹å†…ã€‚
 
-##5.×¢ÏúÕËºÅÊ±µãÖØÆôÓÎÏ·Ã»ÓÐ·´Ó¦
-Q£ºSDK½çÃæµã×¢ÏúÕËºÅÊ±µãÖØÆôÓÎÏ·Ã»ÓÐ·´Ó¦<br>
-A£ºÐèÒªÔÚ³õÊ¼»¯SDKÊ±»Øµ÷ÀïÌí¼ÓCP×Ô¼ºµÄ´¦ÀíÂß¼­£¬Èç£º
+##3.å¦‚ä½•èŽ·å¾—æ”¯ä»˜ç»“æžœé€šçŸ¥
+Qï¼šå¦‚ä½•èŽ·å¾—æ”¯ä»˜ç»“æžœé€šçŸ¥ï¼Ÿ<br>
+Aï¼šä½¿ç”¨å¼‚æ­¥è´­ä¹°ï¼Œæ”¯ä»˜ç»“æžœå°†ä»¥æ¶ˆæ¯çš„æ–¹å¼é€šçŸ¥åˆ°æ‚¨çš„ä¸šåŠ¡æœåŠ¡å™¨æˆ–è€…æœåŠ¡ç«¯è™šæ‹Ÿå•†åº—ä¸­ã€‚ åº”ç”¨æŽ¥å…¥æ–¹éœ€è¦åœ¨**RgBuyInfo**ä¸­å›žä¼ é€šçŸ¥åœ°å€(æˆ–æŠŠå›žä¼ åœ°å€äº¤ç”±æœåŠ¡å™¨é…ç½®)ã€‚æ‚¨çš„ä¸šåŠ¡æœåŠ¡å™¨éœ€è¦å¤„ç†ç”¨æˆ·çš„æ”¯ä»˜ç»“æžœé€šçŸ¥ã€‚æŽ¥æ”¶ç”±é±¼ä¸¸äº’åŠ¨ç§»åŠ¨å¼€å‘å¹³å°æœåŠ¡å™¨å‘é€ç»™å„ä¸ªåº”ç”¨æœåŠ¡çš„æ”¯ä»˜è´­ä¹°ç»“æžœã€‚æœåŠ¡ç«¯å¯¹æŽ¥æ–¹å¼å’Œç›¸åº”çš„æ•°æ®æ ¼å¼å…·ä½“å‚è§[æœåŠ¡ç«¯å¯¹æŽ¥è¯´æ˜Žæ–‡æ¡£][1]ã€‚
+
+##4.æ³¨é”€è´¦å·æ—¶ç‚¹é‡å¯æ¸¸æˆæ²¡æœ‰ååº”
+Qï¼šSDKç•Œé¢ç‚¹æ³¨é”€è´¦å·æ—¶ç‚¹é‡å¯æ¸¸æˆæ²¡æœ‰ååº”<br>
+Aï¼šéœ€è¦åœ¨åˆå§‹åŒ–SDKæ—¶å›žè°ƒé‡Œæ·»åŠ CPè‡ªå·±çš„å¤„ç†é€»è¾‘ï¼Œå¦‚ï¼š
 ```java
 RgCommplatform.rgInit(this, appInfo, new OnInitCompleteListener() {
-    		@Override
+@Override
 			public void onInitComplete(int initCode) {
-				if (initCode == RgConstant.INIT_SUCCESS) {
-					RgCommplatform.addOnLogoutListener(new OnLogoutListener() {
-						@Override
+	            if (initCode == RgConstant.INIT_SUCCESS) {
+                      RgCommplatform.addOnLogoutListener(new OnLogoutListener() {
+                    	@Override
 						public void onLogout() {
-// ÇÐ»»ÕÊºÅ´¦ÀíÂß¼­£¬ÒÔÏÂ´úÂë½öÎªÊ¾Àý´úÂë£¬cp¿É¸ù¾Ý×ÔÉíÐèÒª½øÐÐ²Ù×÷£¬ÈçÖØÐÂµ¯³öµÇÂ¼½çÃæµÈ
-							Intent i = getPackageManager()
-									.getLaunchIntentForPackage(getPackageName());
-							i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-							startActivity(i);
-						}
-					});
-					RgCommplatform.rgLogin(mLoginCallback);
-					// TODO ³õÊ¼»¯ÓÎÏ·
-					initGame();
-				}
-			}
+    // åˆ‡æ¢å¸å·å¤„ç†é€»è¾‘ï¼Œä»¥ä¸‹ä»£ç ä»…ä¸ºç¤ºä¾‹ä»£ç ï¼Œcpå¯æ ¹æ®è‡ªèº«éœ€è¦è¿›è¡Œæ“ä½œï¼Œå¦‚é‡æ–°å¼¹å‡ºç™»å½•ç•Œé¢ç­‰
+					Intent i = getPackageManager().getLaunchIntentForPackage(getPackageName());
+					i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+					startActivity(i);
+	}
+	});
+RgCommplatform.rgLogin(mLoginCallback);
+					// TODO åˆå§‹åŒ–æ¸¸æˆ
+				initGame();
+				                               }
+                                            }
 		});
-
 ```
-[1]:server.md "·þÎñ¶Ë¶Ô½ÓËµÃ÷ÎÄµµ"
+[1]:server.md "æœåŠ¡ç«¯å¯¹æŽ¥è¯´æ˜Žæ–‡æ¡£"

@@ -22,5 +22,5 @@ dependencies {
     compile 'com.android.support:support-v4:21.0.0'
     compile files('libs/UPPayAssistEx.jar')
     compile files('libs/UPPayPluginEx.jar')
-    compile files('libs/YuWanPaySdk_3.0.1.jar')
+    compile files('libs/YuWanPaySdk_3.1.0.jar')
 }

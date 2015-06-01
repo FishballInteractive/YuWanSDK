@@ -31,8 +31,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams. FLAG_FULLSCREEN ,
-                WindowManager.LayoutParams. FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.main);
 
 //参数分别为AppId  AppKey  论坛ID，由鱼丸互动分配
@@ -57,7 +57,6 @@ public class MainActivity extends Activity {
                         }
                     });
                     RgCommplatform.rgLogin(mLoginCallback);
-
                     // TODO your code
                     initView();
                 }
@@ -72,7 +71,17 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                RgCommplatform.rgLogin(mLoginCallback);
+                if (RgCommplatform.isLogined(MainActivity.this)) {
+                    Toast toast = null;
+                    if (toast != null) {
+                        toast.cancel();
+                    }
+                    toast = Toast.makeText(MainActivity.this, "您已经登录！",
+                            Toast.LENGTH_SHORT);
+                    toast.show();
+                } else {
+                    RgCommplatform.rgLogin(mLoginCallback);
+                }
             }
         });
 
@@ -84,7 +93,7 @@ public class MainActivity extends Activity {
 
 //                RgCommplatform.reportRoleInfo(new RgRoleInfo("鱼丸互动","金戈铁马（12服）"));
                 if (!RgCommplatform.isLogined(MainActivity.this)) {
-                    Toast.makeText(MainActivity.this, "??????",
+                    Toast.makeText(MainActivity.this, "请先登录",
                             Toast.LENGTH_SHORT).show();
                     return;
                 }

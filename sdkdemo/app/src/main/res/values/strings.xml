@@ -31,4 +31,6 @@
     <string name="rg_pwd_register">密码：</string>
     <string name="rg_pwd_register_confim">6-18位字符</string>
     <string name="re_title">标题</string>
+    <string name="rg_bind_phone">绑定手机</string>
+    <string name="rg_coupon">我的优惠券</string>
 </resources>

@@ -22,10 +22,12 @@
     <string name="re_title">标题</string>
     <string name="rg_accounts">账号</string>
     <string name="rg_accounts_register">账号：</string>
+    <string name="rg_bind_phone">绑定手机</string>
     <string name="rg_cancel">取消</string>
     <string name="rg_cancle_user">注销账号</string>
     <string name="rg_change_pwd">修改密码</string>
     <string name="rg_confim_pwd">重复输入新密码</string>
+    <string name="rg_coupon">我的优惠券</string>
     <string name="rg_find_pwd">找回密码</string>
     <string name="rg_hint">提示</string>
     <string name="rg_hint_register">数字字母组合</string>
